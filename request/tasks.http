@@ -1,0 +1,32 @@
+###
+GET http://localhost:3000/apirest/tasks?page=2&size=2
+
+
+###
+POST http://localhost:3000/apirest/recibir
+Content-Type: application/json
+
+{
+    "Title": "este es Titulolis",
+    "Description": "Descripcion de tarea",
+    "Done": true
+}
+
+###
+GET http://localhost:3000/apirest/taskb/63ffad24ef2c8ff2e6e0330a
+
+###
+DELETE http://localhost:3000/apirest/taskb/64012f6721146c71afbb8131
+
+###
+GET http://localhost:3000/apirest/taskru
+
+###
+POST http://localhost:3000/apirest/taskmom/64012f6621146c71afbb812f
+Content-Type: application/json
+
+{
+    "Description": "Esta modificada"
+}
+
+
